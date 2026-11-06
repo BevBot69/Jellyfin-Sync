@@ -9,23 +9,7 @@ Zero dependencies: Python standard library only.
 
 ⚠️ Deletion is permanent. Files are removed with Path.unlink(). There is no recycle bin and no undo. Always run --dry-run first and keep backups of anything you can't replace. See Safety.
 
-Table of contents
-Features
-Requirements
-Installation
-Configuration
-Usage
-Example output
-How it works
-How the "keeper" is chosen
-Safety
-Known limitations
-Troubleshooting
-FAQ
-Contributing
-License
-Features
-Capability	Details
+Details
 Content-based detection	Size pre-filter, then full-file SHA-256 on candidates only
 Three run modes	Interactive (per-group prompts), --auto (one global confirmation), --dry-run (report only)
 Suggested keeper	Deterministic scoring that prefers organized Season N folders
